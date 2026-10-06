@@ -1,0 +1,29 @@
+/build*/
+/bin/
+/work/
+/.vs/
+/.vscode/
+*.user
+*.suo
+*.obj
+*.res
+*.pdb
+*.ilk
+*.log
+
+# Saídas de distribuição e registros desta máquina
+/artifacts/
+/firmware/build/
+/firmware/backups/
+/firmware/*.elf
+/firmware/*-validation.json
+/docs/validation.json
+
+# Segredos e certificados privados nunca entram no repositório
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.key
+/dist/
